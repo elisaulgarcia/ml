@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+header{
+  width: 100%;
+  background-color: #EAC926;
+  padding: 10px;
+}
+
+main{
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+footer{
+  text-align: center;
+  background-color: #aaa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  color: #444;
+}
+
+footer div{
+  margin: 20px auto;
+  padding: 0 10%;
+}
+
+footer h3.copyright{
+  width: 100%;
+  margin: 10px auto;
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #0022FF;
+}
+
+.form{
+  background-color: darkgray;
+  padding: 20px 0;
+  border: 5px solid black;
+  border-radius: 80px;
+  margin: auto;
+  max-width: 800px;
+}
+
+.form-login{
+  max-width: 600px;
+}
+
+.form h3{
+  color: #002288;
+}
+
+main form{
+  width: 100%;
+  display: flex;
+  flex-flow: wrap column;
+}
+
+main form.login{
+  height: 350px;
+}
+
+main form div{
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+main form label{
+  display: block;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+main form input{
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  width: 90%;
+  height: 2.5rem;
+}
+
+form div ul li{
+  padding-left: 15%;
+  display: flex;
+  align-items: center;
+}
+
+form div ul li input{
+  margin-right: 15px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+  width: 20px;
+}
+
+input[type="checkbox"]:hover, input[type="radio"]:hover{
+  cursor: pointer;
+}
+
+.foto label{
+  cursor: pointer;
+}
+
+main form input.boton{
+  border: 2px solid #0022AA;
+  width: 70%;
+  height: 3.3rem;
+  margin: 15px auto;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+main form input.reset{
+  border-color: red;
+}
+
+main form input.boton:hover{
+  background-color: #0022AA;
+  color: #fff;
+}
+
+main form input.reset:hover{
+  background-color: red;
+}
+
+main form.login input.boton{
+  position: relative;
+  top: 40px;
+}
+
+#confirm{
+  margin-bottom: 30px;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto;
+}
+
+.logo{
+  width: 50%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.search{
+  display: inline-flex;
+  width: 50%;
+  height: 40px;
+}
+
+.cuerpo{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  display: block;
+}
+
+.top .cuerpo{
+  display: none;
+}
+
+.titular{
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.icon{
+  text-align: right;
+}
+
+.precio{
+  font-size: 18px;
+  width: 30%;
+}
+
+.descuento{
+  font-size: 16px;
+  color: #39b54a;
+}
+
+.descripcion{
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.form-title{
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  margin: 15px;
+}
+
+nav .site, nav .login{
+  display: none;
+}
+
+nav ul li a{
+  font-size: 0.9rem;
+}
+
+.banner{
+  width: 100%;
+}
+
+/* #foto{
+  display: none;
+} */
+
+header .burger-menu{
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  background:rgb(99, 99, 216);
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.search input, button{
+  border: none;
+  background-color: #fff;
+}
+
+.search input{
+  padding: 1rem;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.search button{
+  padding-right: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+}
+
+main section article{
+  width: 300px;
+  border-top: 1px solid #ebebeb;
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid rgb(100,100,100);
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+main section article:hover{
+  cursor: pointer;
+}
+
+section article i{
+  color: #39b54a;
+  display: flex;
+  font-size: 16​px​;
+  padding: ​5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+section article i:hover{
+  transform: rotate(-90deg);
+}
+
+section article i:before{
+  position: relative;
+  top: 20%;
+  right: 10%;
+}
+
+footer div i{
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+  transition: all 0.2s;
+}
+
+footer div i:hover{
+  color: #fff;
+}
+  
+
+/* Vista tablet */
+@media (min-width: 481px) {
+  nav .site, nav .login{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+  }
+
+  main section article{
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+    width: 40%;
+  }
+
+  header .burger-menu{
+    display: none;
+  }
+
+  .logo{
+    width: 220px;
+    height: 70px;
+    margin: 0;
+    margin-right: 5vw;
+  }
+
+  .search{
+    flex-grow: 4;
+  }
+
+  article .descripcion{
+    color: inherit;
+  }
+}
+
+/* Vista laptop */
+@media (min-width: 769px) {
+  footer div{
+    width: 30%;
+    padding: 0;
+  }
+
+  main form{
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .form-title{
+    font-size: 3rem;
+  }
+
+  .top{
+    margin: 0 auto 15px;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav .site, nav .login{
+    display: inline-flex;
+    margin: 15px 0 5px;
+  }
+
+  .top .cuerpo{
+    display: block;
+    margin: 20px;
+  }
+
+  header .cuerpo{
+    display: none;
+  }
+
+  main section article{
+    width: 20%;
+    box-shadow: none;
+    transition: all 0.1s;
+  }
+
+  main section article:hover{
+    border: none;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+  }
+
+  article .descripcion{
+    color: white;
+  }
+
+  article:hover .descripcion{
+    color: inherit;
+  }
+}
