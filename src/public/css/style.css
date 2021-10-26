@@ -7,14 +7,14 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family:sans-serif;
   margin: auto;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-image: linear-gradient(120deg, #f3e9e9 0%, #cfd5d8 100%);
 }
 
 header{
   width: 100%;
-  background-color: #EAC926;
+  background-color: #c0a312;
   padding: 10px;
 }
 
@@ -28,17 +28,17 @@ section{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 footer{
   text-align: center;
-  background-color: #aaa;
+  background-color: rgb(202, 195, 195);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 10px;
-  color: #444;
+  color: rgb(49, 48, 48);
 }
 
 footer div{
@@ -65,14 +65,14 @@ a{
 }
 
 a:hover{
-  color: #0022FF;
+  color: #021486;
 }
 
 .form{
-  background-color: darkgray;
+  background-color: rgb(146, 140, 140);
   padding: 20px 0;
   border: 5px solid black;
-  border-radius: 80px;
+  border-radius: 90px;
   margin: auto;
   max-width: 800px;
 }
@@ -82,7 +82,7 @@ a:hover{
 }
 
 .form h3{
-  color: #002288;
+  color: #021b66;
 }
 
 main form{
@@ -104,19 +104,19 @@ main form div{
 main form label{
   display: block;
   padding: 10px 0;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 main form input{
   border: none;
-  border-radius: 0.3rem;
+  border-radius: 0.4rem;
   padding: 1rem;
   width: 90%;
   height: 2.5rem;
 }
 
 form div ul li{
-  padding-left: 15%;
+  padding-left: 18%;
   display: flex;
   align-items: center;
 }
@@ -138,7 +138,7 @@ input[type="checkbox"]:hover, input[type="radio"]:hover{
 }
 
 main form input.boton{
-  border: 2px solid #0022AA;
+  border: 2px solid #0a31cf;
   width: 70%;
   height: 3.3rem;
   margin: 15px auto;
@@ -147,11 +147,11 @@ main form input.boton{
 }
 
 main form input.reset{
-  border-color: red;
+  border-color: rgb(235, 6, 6);
 }
 
 main form input.boton:hover{
-  background-color: #0022AA;
+  background-color: #011564;
   color: #fff;
 }
 
